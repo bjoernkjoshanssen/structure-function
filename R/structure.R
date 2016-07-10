@@ -31,7 +31,11 @@ structure_function <- function(x, y) {
     # y= m
     # output = output of structure function
     if (x == "") {
-        "The empty string is short"
+        DiagrammeR::grViz(
+            "digraph G {
+			    S0 [shape = box];
+            }"
+        )
     }
 }
 
