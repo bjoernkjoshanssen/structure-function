@@ -1,0 +1,14 @@
+Package: structure-function
+Version: 0.1-1
+Date: 2016-07-10
+Title: Automatic Structure Function Data
+Authors@R: c(person("Bjoern", "Kjos-Hanssen", role = c("aut", "cre"),
+		     email = "bjoern.kjos-hanssen@hawaii.edu"))
+Author: Bjoern Kjos-Hanssen [aut, cre]
+Maintainer: Bjoern Kjos-Hanssen <bjoern.kjos-hanssen@hawaii.edu>
+Depends: R (>= 3.1.0), nlme
+Suggests: MASS
+Description: Provides some data on state sequences.
+License: GPL (>= 2)
+URL: http://math.hawaii.edu/wordpress/bjoern/
+BugReports: https://structure-function.bugtracker.url
