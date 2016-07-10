@@ -1,1 +1,1 @@
-export(structure_function)
+export(x, structure_function)
