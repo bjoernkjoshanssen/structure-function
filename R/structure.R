@@ -15,16 +15,16 @@
 #' @export
 #'
 #' @examples
-#' add_numbers(1, 2) ## returns 3
+#' structure_function(1, 2) ## returns 3
 #'
-#' ## don't run this in calls to 'example(add_numbers)'
+#' ## don't run this in calls to 'example(structure_function)'
 #' \dontrun{
-#'    add_numbers(2, 3)
+#'    structure_function(2, 3)
 #' }
 #'
 #' ## don't test this during 'R CMD check'
 #' \donttest{
-#'    add_numbers(4, 5)
+#'    structure_function(4, 5)
 #' }
 structure_function <- function(x, y) {
     x + y
