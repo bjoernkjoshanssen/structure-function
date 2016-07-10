@@ -1,5 +1,5 @@
 Package: structurefunction
-Version: 0.1-1
+Version: 0.1-2
 Date: 2016-07-10
 Title: Automatic Structure Function Data
 Authors@R: c(person("Bjoern", "Kjos-Hanssen", role = c("aut", "cre"),
