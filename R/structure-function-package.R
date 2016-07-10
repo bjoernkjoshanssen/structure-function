@@ -3,8 +3,8 @@
 #' Package description.
 #'
 #' @docType package
-#' @name <structure-function>
+#' @name <structurefunction>
 #' @import assertthat
 #' @importFrom utils head tail
-#' @useDynLib <structure-function>
+#' @useDynLib <structurefunction>
 NULL
