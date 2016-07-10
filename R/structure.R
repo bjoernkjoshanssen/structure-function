@@ -27,11 +27,12 @@
 #'    structure_function(4, 5)
 #' }
 structure_function <- function(x, y) {
-    x + y
     # x = string
     # y= m
     # output = output of structure function
-    # if x= empty string...
+    if (x == "") {
+        "The empty string is short"
+    }
 }
 
 x <- c(0,1,0)
