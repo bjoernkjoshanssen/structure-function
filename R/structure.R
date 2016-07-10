@@ -26,8 +26,12 @@
 #' \donttest{
 #'    add_numbers(4, 5)
 #' }
-add_numbers <- function(x, y) {
+structure_function <- function(x, y) {
     x + y
+    # x = string
+    # y= m
+    # output = output of structure function
+    # if x= empty string...
 }
 
 x <- c(0,1,0)
