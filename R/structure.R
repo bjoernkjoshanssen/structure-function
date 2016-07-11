@@ -32,9 +32,17 @@ structure_function <- function(x, y) {
     # output = output of structure function
     if (x == "") {
         DiagrammeR::grViz(
-            "digraph G {
+            'digraph G {
 			    S0 [shape = box];
-            }"
+            }'
+        )
+    }
+    if (x == "0") {
+        DiagrammeR::grViz(
+            'digraph G {
+				S0 [shape = box];
+				S0 -> S0 [label = "0"];
+			}'
         )
     }
 }
