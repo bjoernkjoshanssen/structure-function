@@ -37,12 +37,23 @@ structure_function <- function(x, y) {
             }'
         )
     }
-    if (x == "0") {
+    if ((x == "0") || (x == "00")) {
         DiagrammeR::grViz(
             'digraph G {
 				S0 [shape = box];
 				S0 -> S0 [label = "0"];
 			}'
+        )
+    }
+    if (x == "01") {
+        DiagrammeR::grViz(
+            'digraph G {
+            G0 [shape = box];
+            G0 -> G0 [label = "0"];
+            H0 [shape = box];
+            H0 -> H0 [label = "0"];
+            H0 -> H1 [label = "1"];
+            }'
         )
     }
 }
