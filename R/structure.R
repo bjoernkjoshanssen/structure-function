@@ -56,6 +56,17 @@ structure_function <- function(x, y) {
             }'
         )
     }
+    if (x == "010") {
+        DiagrammeR::grViz(
+            'digraph G {
+            G0 [shape = box];
+            G0 -> G0 [label = "0"];
+            H1 [shape = box];
+            H0 -> H1 [label = "0"];
+            H1 -> H0 [label = "1"];
+            }'
+        )
+    }
 }
 
 x <- c(0,1,0)
