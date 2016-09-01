@@ -31,6 +31,7 @@ structure_function <- function(x, y) {
     # y= m
     # output = output of structure function
     if (x == "") {
+        x
         DiagrammeR::grViz(
             'digraph G {
 			    S0 [shape = box];
@@ -57,16 +58,17 @@ structure_function <- function(x, y) {
         )
     }
     if (x == "010") {
+        x
         DiagrammeR::grViz(
             'digraph G {
-            G0 [shape = box];
-            G0 -> G0 [label = "0"];
-            H1 [shape = box];
-            H0 -> H1 [label = "0"];
-            H1 -> H0 [label = "1"];
+            K0 [shape = box];
+            K0 -> K0 [label = "0"];
+            L1 [shape = box];
+            L0 -> L1 [label = "0"];
+            L1 -> L0 [label = "1"];
             }'
         )
     }
 }
 
-x <- c(0,1,0)
+x <- c(0,1,0,1)
